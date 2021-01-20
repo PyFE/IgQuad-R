@@ -23,4 +23,4 @@ In this study, a numerical quadrature for the generalized inverse Gaussian distr
 * [InvGaussianQuad/Table4-GH-RV.R](InvGaussianQuad/Table4-GH-RV.R): Table 4
 
 ## Citation
-* __Choi, J., Du, Y., & Song, Q.__ (2021). Inverse Gaussian quadrature and finite normal-mixture approximation of the generalized hyperbolic distribution. *Journal of Computational and Applied Mathematics*, 388, 113302. https://doi.org/10.1016/j.cam.2020.113302
+__Choi, J., Du, Y., & Song, Q.__ (2021). Inverse Gaussian quadrature and finite normal-mixture approximation of the generalized hyperbolic distribution. *Journal of Computational and Applied Mathematics*, 388, 113302. https://doi.org/10.1016/j.cam.2020.113302
