@@ -6,7 +6,7 @@
 #' @param gamma GIG parameter in the paper
 #' @param delta GIG parameter in the paper
 #' @param p GIG parameter in the paper
-#' @param n.quad # of quadrature points
+#' @param n.quad number of quadrature points
 #' @param correct normalize weights if TRUE
 #'
 gig.mgf.num <- function(t, gamma=1, delta=1, p=-0.5, n.quad=50, correct=F) {

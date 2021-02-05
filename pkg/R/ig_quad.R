@@ -3,7 +3,7 @@
 #'
 #' @param mu IG parameter
 #' @param lambda IG parameter
-#' @param n.quad # of quadrature points
+#' @param n.quad number of quadrature points
 #'
 ig.quad <- function(mu=1, lambda=1, n.quad=8){
 
