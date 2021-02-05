@@ -187,7 +187,7 @@ gig.mgf.num <- function(t, gamma=1, delta=1, p=-0.5, n.quad=50, correct=F) {
 #' @param n.quad # of quadrature points
 #' @param correct normalize weights if TRUE
 #' 
-ghyp.quad <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5,
+gh.quad <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5,
                       param=c(mu, delta, alpha, beta, p),
                       n.quad=c(8,4), correct=T) {
   
@@ -224,7 +224,7 @@ ghyp.quad <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5,
 #' @param correct normalize weights if TRUE
 #' @param lower.tail
 #' 
-ghyp.cdf <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
+gh.cdf <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
                      param=c(mu, delta, alpha, beta, p),
                      n.quad=8, correct=T, lower.tail=T) {
 
@@ -258,7 +258,7 @@ ghyp.cdf <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5,
 #' @param GIGrvg If TRUE, use GIGrvg::rgig instead
 #' @param antithetic
 #' 
-ghyp.rand <- function(n=99, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
+gh.rand <- function(n=99, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
                       param=c(mu, delta, alpha, beta, p),
                       n.quad=50, correct=T, GIGrvg=F, antithetic=T) {
   mu <- param[1]
@@ -300,7 +300,7 @@ ghyp.rand <- function(n=99, mu=0, alpha=1, beta=0, delta=1, p=-0.5,
 #' @param GIGrvg If TRUE, use GIGrvg::rgig instead
 #' @param antithetic
 #' 
-ghyp.cdf.mc <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
+gh.cdf.mc <- function(x, mu=0, alpha=1, beta=0, delta=1, p=-0.5, 
                         param=c(mu, delta, alpha, beta, p),
                         n.quad=50, n=1e6, correct=T, GIGrvg=F,
                         antithetic=F) {
